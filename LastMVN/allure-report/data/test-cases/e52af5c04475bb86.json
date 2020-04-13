@@ -1,0 +1,247 @@
+{
+  "uid" : "e52af5c04475bb86",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven.f",
+  "historyId" : "d45d51fe7971f1e8606991ff2d6c6c94",
+  "time" : {
+    "start" : 1586733991308,
+    "stop" : 1586733992559,
+    "duration" : 1251
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "23"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "输入测点名称"
+  }, {
+    "name" : "arg3",
+    "value" : "input"
+  }, {
+    "name" : "arg4",
+    "value" : "//*[@aria-label='请选择类别标识']"
+  }, {
+    "name" : "arg5",
+    "value" : "ronnie测点专用勿删"
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 23,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 260,
+        "unknown" : 0,
+        "total" : 283
+      },
+      "items" : [ {
+        "uid" : "f5729a893892d3f0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/f5729a893892d3f0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586726792127,
+          "stop" : 1586726793360,
+          "duration" : 1233
+        }
+      }, {
+        "uid" : "cc7981c959dae4a5",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/cc7981c959dae4a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719591238,
+          "stop" : 1586719592469,
+          "duration" : 1231
+        }
+      }, {
+        "uid" : "6291c14deba3b3a4",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/6291c14deba3b3a4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712392610,
+          "stop" : 1586712393836,
+          "duration" : 1226
+        }
+      }, {
+        "uid" : "17368c69430645c1",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/17368c69430645c1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532390966,
+          "stop" : 1586532392209,
+          "duration" : 1243
+        }
+      }, {
+        "uid" : "c7e10c3418f7dc08",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/c7e10c3418f7dc08",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525190863,
+          "stop" : 1586525192089,
+          "duration" : 1226
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "e52af5c04475bb86.json",
+  "parameterValues" : [ "23", "", "", "输入测点名称", "input", "//*[@aria-label='请选择类别标识']", "ronnie测点专用勿删", "", "", "", "" ]
+}

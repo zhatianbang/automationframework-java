@@ -1,0 +1,247 @@
+{
+  "uid" : "9bdf016471faf488",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven2.f",
+  "historyId" : "5cd9543fb2ca8df9d67ba8028d9dad1d",
+  "time" : {
+    "start" : 1586734016159,
+    "stop" : 1586734017236,
+    "duration" : 1077
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven2"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven2"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven2"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "5"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "管理员登陆"
+  }, {
+    "name" : "arg3",
+    "value" : "click"
+  }, {
+    "name" : "arg4",
+    "value" : "//*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple']"
+  }, {
+    "name" : "arg5",
+    "value" : ""
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 20,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 253,
+        "unknown" : 0,
+        "total" : 273
+      },
+      "items" : [ {
+        "uid" : "1aaf3af4bd9dab2a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/1aaf3af4bd9dab2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586726817426,
+          "stop" : 1586726818507,
+          "duration" : 1081
+        }
+      }, {
+        "uid" : "20cfa26d43698d72",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/20cfa26d43698d72",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719615976,
+          "stop" : 1586719617055,
+          "duration" : 1079
+        }
+      }, {
+        "uid" : "84769ae1109c66b",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/84769ae1109c66b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712417449,
+          "stop" : 1586712418525,
+          "duration" : 1076
+        }
+      }, {
+        "uid" : "6906e7cf2b095f28",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/6906e7cf2b095f28",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532415629,
+          "stop" : 1586532416714,
+          "duration" : 1085
+        }
+      }, {
+        "uid" : "1d9257434bed01bf",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/1d9257434bed01bf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525215461,
+          "stop" : 1586525216544,
+          "duration" : 1083
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9bdf016471faf488.json",
+  "parameterValues" : [ "5", "", "", "管理员登陆", "click", "//*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple']", "", "", "", "", "" ]
+}

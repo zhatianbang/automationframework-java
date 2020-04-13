@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\duankj\AppData\Local\Temp\testng-eclipse--80010755\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(1, , 打开浏览器, openBrowser, chrome, , , , , , )">f(1, , 打开浏览器, openBrowser, chrome, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(10, , 点击, click, //*[@aria-label=&#039;所属产品&#039;], , , , , , )">f(10, , 点击, click, //*[@aria-label='所属产品'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(11, , 输入产品, inputCyclic, //*[@aria-label=&#039;所属产品&#039;], 我_一型一密_直连非ss, , , , , )">f(11, , 输入产品, inputCyclic, //*[@aria-label='所属产品'], 我_一型一密_直连非ss, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(2, , 访问basic, visitWeb, http://test-cc.chintcloud.net/, , , , , , )">f(2, , 访问basic, visitWeb, http://test-cc.chintcloud.net/, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(15, , 输入描述, input, //*[@name=&#039;description&#039; and @rows=&#039;2&#039;], 测试描述字段#￥%……&amp;*（）, , , , , )">f(15, , 输入描述, input, //*[@name='description' and @rows='2'], 测试描述字段#￥%……&*（）, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(13, , 键盘ENTER, pressEnter, //*[@aria-label=&#039;所属产品&#039;], , , , , , )">f(13, , 键盘ENTER, pressEnter, //*[@aria-label='所属产品'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(14, , 输入设备sn, input, //*[@name=&#039;sn&#039; and @ng-model=&#039;device.sn&#039; and @style=&#039;&#039;], SN33665542121, , , , ,...)">f(14, , 输入设备sn, input, //*[@name='sn' and @ng-model='device.sn' and @style=''], SN33665542121, , , , ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(23, , 点击是, click, //*[@type=&#039;button&#039;]/span[contains(text(),&#039;是&#039;)], , , , , , )">f(23, , 点击是, click, //*[@type='button']/span[contains(text(),'是')], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(5, , 登陆, click, //*[@class=&#039;md-raised md-button md-tb-dark-theme md-ink-ripple&#039;], , , , , , )">f(5, , 登陆, click, //*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(8, , 创建新的设备, runJsClick, //ng-md-icon[@icon=&#039;insert_drive_file&#039;], , , , , , )">f(8, , 创建新的设备, runJsClick, //ng-md-icon[@icon='insert_drive_file'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(16, , 点击添加, click, //span[contains(text(),&#039;添加&#039;)]/parent::button[@type=&#039;submit&#039;], , , , , , )">f(16, , 点击添加, click, //span[contains(text(),'添加')]/parent::button[@type='submit'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(4, , 输入密码, input, //input[@id=&#039;password-input&#039;], common-api, , , , , )">f(4, , 输入密码, input, //input[@id='password-input'], common-api, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(12, , 键盘DOWN, pressDown, //*[@aria-label=&#039;所属产品&#039;], , , , , , )">f(12, , 键盘DOWN, pressDown, //*[@aria-label='所属产品'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(19, , 输入检索内容, input, //*[@placeholder=&#039;输入检索条件&#039;], common-api, , , , , )">f(19, , 输入检索内容, input, //*[@placeholder='输入检索条件'], common-api, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(24, , 断言删除成功, assertInvisibility, //*[contains(text(),&#039;新增直连设备寂寞&#039;)], , , , , , )">f(24, , 断言删除成功, assertInvisibility, //*[contains(text(),'新增直连设备寂寞')], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(22, , 点击删除, click, //*[contains(text(),&#039;新增直连设备寂寞&#039;)]/../../../../descendant::div[@aria-label=&#039;删除&#039;], ,...)">f(22, , 点击删除, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除'], ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(17, , 点击分配, click, //*[contains(text(),&#039;新增直连设备寂寞&#039;)]/../../../../descendant::div[@aria-label=&#039;分配&#039;], ,...)">f(17, , 点击分配, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配'], ,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(21, , 点击提交, click, //*[@type=&#039;submit&#039;], , , , , , )">f(21, , 点击提交, click, //*[@type='submit'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(3, , 输入用户名, input, //input[@id=&#039;username-input&#039;], common-api@chint.com, , , , , )">f(3, , 输入用户名, input, //input[@id='username-input'], common-api@chint.com, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(6, , 点击设备, click, //*[@section=&#039;section&#039;]/descendant::span[contains(text(),&#039;设备&#039;)], , , , , , )">f(6, , 点击设备, click, //*[@section='section']/descendant::span[contains(text(),'设备')], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(20, , 点击检索结果, click, //*[@aria-label=&#039;选择&#039;]/following-sibling::span[contains(text(),&#039; common-api(勿删) ...)">f(20, , 点击检索结果, click, //*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(7, , 点击新增设备, click, //*[@aria-haspopup=&#039;true&#039;]/button, , , , , , )">f(7, , 点击新增设备, click, //*[@aria-haspopup='true']/button, , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(9, , 输入设备名称, input, //*[@name=&#039;name&#039; and @style=&#039;&#039;], 新增直连设备寂寞, , , , , )">f(9, , 输入设备名称, input, //*[@name='name' and @style=''], 新增直连设备寂寞, , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(25, , 关闭浏览器, closeBrowser, , , , , , , )">f(25, , 关闭浏览器, closeBrowser, , , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.testing.runner.WEBdataDriven4" hash-for-method="f(18, , 点击检索条件, click, //*[@placeholder=&#039;输入检索条件&#039;], , , , , , )">f(18, , 点击检索条件, click, //*[@placeholder='输入检索条件'], , , , , , )</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testing.runner.WEBdataDriven4</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(1, , 打开浏览器, openBrowser, chrome, , , , , , )">
+                  </a> <!-- f(1, , 打开浏览器, openBrowser, chrome, , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(1, , 打开浏览器, openBrowser, chrome, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(10, , 点击, click, //*[@aria-label=&#039;所属产品&#039;], , , , , , )">
+                  </a> <!-- f(10, , 点击, click, //*[@aria-label='所属产品'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(10, , 点击, click, //*[@aria-label='所属产品'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(11, , 输入产品, inputCyclic, //*[@aria-label=&#039;所属产品&#039;], 我_一型一密_直连非ss, , , , , )">
+                  </a> <!-- f(11, , 输入产品, inputCyclic, //*[@aria-label='所属产品'], 我_一型一密_直连非ss, , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(11, , 输入产品, inputCyclic, //*[@aria-label='所属产品'], 我_一型一密_直连非ss, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(2, , 访问basic, visitWeb, http://test-cc.chintcloud.net/, , , , , , )">
+                  </a> <!-- f(2, , 访问basic, visitWeb, http://test-cc.chintcloud.net/, , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(2, , 访问basic, visitWeb, http://test-cc.chintcloud.net/, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(15, , 输入描述, input, //*[@name=&#039;description&#039; and @rows=&#039;2&#039;], 测试描述字段#￥%……&amp;*（）, , , , , )">
+                  </a> <!-- f(15, , 输入描述, input, //*[@name='description' and @rows='2'], 测试描述字段#￥%……&*（）, , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(15, , 输入描述, input, //*[@name='description' and @rows='2'], 测试描述字段#￥%……&*（）, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(13, , 键盘ENTER, pressEnter, //*[@aria-label=&#039;所属产品&#039;], , , , , , )">
+                  </a> <!-- f(13, , 键盘ENTER, pressEnter, //*[@aria-label='所属产品'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(13, , 键盘ENTER, pressEnter, //*[@aria-label='所属产品'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(14, , 输入设备sn, input, //*[@name=&#039;sn&#039; and @ng-model=&#039;device.sn&#039; and @style=&#039;&#039;], SN33665542121, , , , ,...)">
+                  </a> <!-- f(14, , 输入设备sn, input, //*[@name='sn' and @ng-model='device.sn' and @style=''], SN33665542121, , , , ,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(14, , 输入设备sn, input, //*[@name='sn' and @ng-model='device.sn' and @style=''], SN33665542121, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(23, , 点击是, click, //*[@type=&#039;button&#039;]/span[contains(text(),&#039;是&#039;)], , , , , , )">
+                  </a> <!-- f(23, , 点击是, click, //*[@type='button']/span[contains(text(),'是')], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(23, , 点击是, click, //*[@type='button']/span[contains(text(),'是')], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(5, , 登陆, click, //*[@class=&#039;md-raised md-button md-tb-dark-theme md-ink-ripple&#039;], , , , , , )">
+                  </a> <!-- f(5, , 登陆, click, //*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(5, , 登陆, click, //*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(8, , 创建新的设备, runJsClick, //ng-md-icon[@icon=&#039;insert_drive_file&#039;], , , , , , )">
+                  </a> <!-- f(8, , 创建新的设备, runJsClick, //ng-md-icon[@icon='insert_drive_file'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(8, , 创建新的设备, runJsClick, //ng-md-icon[@icon='insert_drive_file'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(16, , 点击添加, click, //span[contains(text(),&#039;添加&#039;)]/parent::button[@type=&#039;submit&#039;], , , , , , )">
+                  </a> <!-- f(16, , 点击添加, click, //span[contains(text(),'添加')]/parent::button[@type='submit'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(16, , 点击添加, click, //span[contains(text(),'添加')]/parent::button[@type='submit'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(4, , 输入密码, input, //input[@id=&#039;password-input&#039;], common-api, , , , , )">
+                  </a> <!-- f(4, , 输入密码, input, //input[@id='password-input'], common-api, , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(4, , 输入密码, input, //input[@id='password-input'], common-api, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(12, , 键盘DOWN, pressDown, //*[@aria-label=&#039;所属产品&#039;], , , , , , )">
+                  </a> <!-- f(12, , 键盘DOWN, pressDown, //*[@aria-label='所属产品'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(12, , 键盘DOWN, pressDown, //*[@aria-label='所属产品'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(19, , 输入检索内容, input, //*[@placeholder=&#039;输入检索条件&#039;], common-api, , , , , )">
+                  </a> <!-- f(19, , 输入检索内容, input, //*[@placeholder='输入检索条件'], common-api, , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(19, , 输入检索内容, input, //*[@placeholder='输入检索条件'], common-api, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(24, , 断言删除成功, assertInvisibility, //*[contains(text(),&#039;新增直连设备寂寞&#039;)], , , , , , )">
+                  </a> <!-- f(24, , 断言删除成功, assertInvisibility, //*[contains(text(),'新增直连设备寂寞')], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(24, , 断言删除成功, assertInvisibility, //*[contains(text(),'新增直连设备寂寞')], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(22, , 点击删除, click, //*[contains(text(),&#039;新增直连设备寂寞&#039;)]/../../../../descendant::div[@aria-label=&#039;删除&#039;], ,...)">
+                  </a> <!-- f(22, , 点击删除, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除'], ,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(22, , 点击删除, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(17, , 点击分配, click, //*[contains(text(),&#039;新增直连设备寂寞&#039;)]/../../../../descendant::div[@aria-label=&#039;分配&#039;], ,...)">
+                  </a> <!-- f(17, , 点击分配, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配'], ,...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(17, , 点击分配, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(21, , 点击提交, click, //*[@type=&#039;submit&#039;], , , , , , )">
+                  </a> <!-- f(21, , 点击提交, click, //*[@type='submit'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(21, , 点击提交, click, //*[@type='submit'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(3, , 输入用户名, input, //input[@id=&#039;username-input&#039;], common-api@chint.com, , , , , )">
+                  </a> <!-- f(3, , 输入用户名, input, //input[@id='username-input'], common-api@chint.com, , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(3, , 输入用户名, input, //input[@id='username-input'], common-api@chint.com, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(6, , 点击设备, click, //*[@section=&#039;section&#039;]/descendant::span[contains(text(),&#039;设备&#039;)], , , , , , )">
+                  </a> <!-- f(6, , 点击设备, click, //*[@section='section']/descendant::span[contains(text(),'设备')], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(6, , 点击设备, click, //*[@section='section']/descendant::span[contains(text(),'设备')], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(20, , 点击检索结果, click, //*[@aria-label=&#039;选择&#039;]/following-sibling::span[contains(text(),&#039; common-api(勿删) ...)">
+                  </a> <!-- f(20, , 点击检索结果, click, //*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ...) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(20, , 点击检索结果, click, //*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ')], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(7, , 点击新增设备, click, //*[@aria-haspopup=&#039;true&#039;]/button, , , , , , )">
+                  </a> <!-- f(7, , 点击新增设备, click, //*[@aria-haspopup='true']/button, , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(7, , 点击新增设备, click, //*[@aria-haspopup='true']/button, , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(9, , 输入设备名称, input, //*[@name=&#039;name&#039; and @style=&#039;&#039;], 新增直连设备寂寞, , , , , )">
+                  </a> <!-- f(9, , 输入设备名称, input, //*[@name='name' and @style=''], 新增直连设备寂寞, , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(9, , 输入设备名称, input, //*[@name='name' and @style=''], 新增直连设备寂寞, , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(25, , 关闭浏览器, closeBrowser, , , , , , , )">
+                  </a> <!-- f(25, , 关闭浏览器, closeBrowser, , , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(25, , 关闭浏览器, closeBrowser, , , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="f(18, , 点击检索条件, click, //*[@placeholder=&#039;输入检索条件&#039;], , , , , , )">
+                  </a> <!-- f(18, , 点击检索条件, click, //*[@placeholder='输入检索条件'], , , , , , ) -->
+                  <span class="method-name">f</span>
+                  <span class="parameters">(18, , 点击检索条件, click, //*[@placeholder='输入检索条件'], , , , , , )</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\duankj\AppData\Local\Temp\testng-eclipse--80010755\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testing.runner.WEBdataDriven4&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'f')
+data.setCell(0, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(0, 3, 3893);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'f')
+data.setCell(1, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(1, 3, 2796);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'f')
+data.setCell(2, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(2, 3, 2314);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'f')
+data.setCell(3, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(3, 3, 2166);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'f')
+data.setCell(4, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(4, 3, 1792);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'f')
+data.setCell(5, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(5, 3, 1791);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'f')
+data.setCell(6, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(6, 3, 1779);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'f')
+data.setCell(7, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(7, 3, 1509);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'f')
+data.setCell(8, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(8, 3, 1470);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'f')
+data.setCell(9, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(9, 3, 1388);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'f')
+data.setCell(10, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(10, 3, 1340);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'f')
+data.setCell(11, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(11, 3, 1258);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'f')
+data.setCell(12, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(12, 3, 1226);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'f')
+data.setCell(13, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(13, 3, 1216);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'f')
+data.setCell(14, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(14, 3, 1216);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'f')
+data.setCell(15, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(15, 3, 1207);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'f')
+data.setCell(16, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(16, 3, 1161);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'f')
+data.setCell(17, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(17, 3, 1133);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'f')
+data.setCell(18, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(18, 3, 1131);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'f')
+data.setCell(19, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(19, 3, 1120);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'f')
+data.setCell(20, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(20, 3, 1109);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'f')
+data.setCell(21, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(21, 3, 1099);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'f')
+data.setCell(22, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(22, 3, 1073);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'f')
+data.setCell(23, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(23, 3, 1068);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'f')
+data.setCell(24, 2, 'com.testing.runner.WEBdataDriven4')
+data.setCell(24, 3, 573);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 37 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testing.runner.WEBdataDriven4</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">beforeSuite</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">f(1, , 打开浏览器, openBrowser, chrome, , , , , , )</span>
+                <span class="method-start">934 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(2, , 访问basic, visitWeb, http://test-cc.chintcloud.net/, , , , , , )</span>
+                <span class="method-start">4890 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(3, , 输入用户名, input, //input[@id='username-input'], common-api@chint.com, , , , , )</span>
+                <span class="method-start">7689 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(4, , 输入密码, input, //input[@id='password-input'], common-api, , , , , )</span>
+                <span class="method-start">8898 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(5, , 登陆, click, //*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple'], , , , , , )</span>
+                <span class="method-start">10030 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(6, , 点击设备, click, //*[@section='section']/descendant::span[contains(text(),'设备')], , , , , , )</span>
+                <span class="method-start">11131 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(7, , 点击新增设备, click, //*[@aria-haspopup='true']/button, , , , , , )</span>
+                <span class="method-start">12925 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(8, , 创建新的设备, runJsClick, //ng-md-icon[@icon='insert_drive_file'], , , , , , )</span>
+                <span class="method-start">14316 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(9, , 输入设备名称, input, //*[@name='name' and @style=''], 新增直连设备寂寞, , , , , )</span>
+                <span class="method-start">15534 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(10, , 点击, click, //*[@aria-label='所属产品'], , , , , , )</span>
+                <span class="method-start">16876 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(11, , 输入产品, inputCyclic, //*[@aria-label='所属产品'], 我_一型一密_直连非ss, , , , , )</span>
+                <span class="method-start">18136 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(12, , 键盘DOWN, pressDown, //*[@aria-label='所属产品'], , , , , , )</span>
+                <span class="method-start">20453 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(13, , 键盘ENTER, pressEnter, //*[@aria-label='所属产品'], , , , , , )</span>
+                <span class="method-start">21527 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(14, , 输入设备sn, input, //*[@name='sn' and @ng-model='device.sn' and @style=''], SN33665542121, , , , ,...)</span>
+                <span class="method-start">22650 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(15, , 输入描述, input, //*[@name='description' and @rows='2'], 测试描述字段#￥%……&*（）, , , , , )</span>
+                <span class="method-start">24121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(16, , 点击添加, click, //span[contains(text(),'添加')]/parent::button[@type='submit'], , , , , , )</span>
+                <span class="method-start">25633 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(17, , 点击分配, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配'], ,...)</span>
+                <span class="method-start">26853 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(18, , 点击检索条件, click, //*[@placeholder='输入检索条件'], , , , , , )</span>
+                <span class="method-start">28634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(19, , 输入检索内容, input, //*[@placeholder='输入检索条件'], common-api, , , , , )</span>
+                <span class="method-start">29769 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(20, , 点击检索结果, click, //*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ...)</span>
+                <span class="method-start">31937 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(21, , 点击提交, click, //*[@type='submit'], , , , , , )</span>
+                <span class="method-start">33101 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(22, , 点击删除, click, //*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除'], ,...)</span>
+                <span class="method-start">34328 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(23, , 点击是, click, //*[@type='button']/span[contains(text(),'是')], , , , , , )</span>
+                <span class="method-start">36122 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(24, , 断言删除成功, assertInvisibility, //*[contains(text(),'新增直连设备寂寞')], , , , , , )</span>
+                <span class="method-start">37234 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">f(25, , 关闭浏览器, closeBrowser, , , , , , , )</span>
+                <span class="method-start">37808 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-suite after">
+                <span class="method-name">afterSuite</span>
+                <span class="method-start">38898 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

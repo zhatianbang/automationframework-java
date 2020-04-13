@@ -1,0 +1,104 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected [pass] but found [fail]",
+      "children" : [ {
+        "name" : "f",
+        "uid" : "29eac9e462b3fe3",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734017239,
+          "stop" : 1586734048690,
+          "duration" : 31451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "6", "", "", "租户菜单", "click", "//*[@ui-sref='home.tenants' and @ui-sref-active-eq='tb-active']", "", "", "", "", "" ]
+      }, {
+        "name" : "f",
+        "uid" : "e5c4ae309dbdcaf3",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734077554,
+          "stop" : 1586734109005,
+          "duration" : 31451
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "17", "", "", "点击分配", "click", "//*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配']", "", "", "", "", "" ]
+      }, {
+        "name" : "f",
+        "uid" : "b6a7bfff4e525d36",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734109007,
+          "stop" : 1586734140455,
+          "duration" : 31448
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "18", "", "", "点击检索条件", "click", "//*[@placeholder='输入检索条件']", "", "", "", "", "" ]
+      }, {
+        "name" : "f",
+        "uid" : "e961f78416edcbd5",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734140456,
+          "stop" : 1586734171866,
+          "duration" : 31410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "19", "", "", "输入检索内容", "input", "//*[@placeholder='输入检索条件']", "common-api", "", "", "", "" ]
+      }, {
+        "name" : "f",
+        "uid" : "e0cd97f2c3c29cc8",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734171868,
+          "stop" : 1586734203234,
+          "duration" : 31366
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "20", "", "", "点击检索结果", "click", "//*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ')]", "", "", "", "", "" ]
+      }, {
+        "name" : "f",
+        "uid" : "d525b218d698a10e",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734204459,
+          "stop" : 1586734235896,
+          "duration" : 31437
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "22", "", "", "点击删除", "click", "//*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除']", "", "", "", "", "" ]
+      }, {
+        "name" : "f",
+        "uid" : "547bdb1a0100235c",
+        "parentUid" : "82c9e88d520f7babc8b544bcf93b0e3f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1586734235898,
+          "stop" : 1586734267318,
+          "duration" : 31420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "23", "", "", "点击是", "click", "//*[@type='button']/span[contains(text(),'是')]", "", "", "", "", "" ]
+      } ],
+      "uid" : "82c9e88d520f7babc8b544bcf93b0e3f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

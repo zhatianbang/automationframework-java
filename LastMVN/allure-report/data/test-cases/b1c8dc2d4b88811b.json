@@ -1,0 +1,247 @@
+{
+  "uid" : "b1c8dc2d4b88811b",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven3.f",
+  "historyId" : "1514e6bdf4ec4fdb68554a64a46c7f12",
+  "time" : {
+    "start" : 1586734277349,
+    "stop" : 1586734278420,
+    "duration" : 1071
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "25"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "关闭浏览器"
+  }, {
+    "name" : "arg3",
+    "value" : "closeBrowser"
+  }, {
+    "name" : "arg4",
+    "value" : ""
+  }, {
+    "name" : "arg5",
+    "value" : ""
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 16,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 258,
+        "unknown" : 0,
+        "total" : 274
+      },
+      "items" : [ {
+        "uid" : "30c7bb4abbaefbc9",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/30c7bb4abbaefbc9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586727078883,
+          "stop" : 1586727079960,
+          "duration" : 1077
+        }
+      }, {
+        "uid" : "5002a5f6272b5fff",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/5002a5f6272b5fff",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719877337,
+          "stop" : 1586719878411,
+          "duration" : 1074
+        }
+      }, {
+        "uid" : "5acbeeb324890366",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/5acbeeb324890366",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712678620,
+          "stop" : 1586712679691,
+          "duration" : 1071
+        }
+      }, {
+        "uid" : "d4ef7834f7a81ca0",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/d4ef7834f7a81ca0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532677099,
+          "stop" : 1586532678170,
+          "duration" : 1071
+        }
+      }, {
+        "uid" : "cda1d3cdba917d8",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/cda1d3cdba917d8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525476911,
+          "stop" : 1586525477983,
+          "duration" : 1072
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "b1c8dc2d4b88811b.json",
+  "parameterValues" : [ "25", "", "", "关闭浏览器", "closeBrowser", "", "", "", "", "", "" ]
+}

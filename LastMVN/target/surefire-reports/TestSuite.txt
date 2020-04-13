@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 70, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 319.35 s <<< FAILURE! - in TestSuite
+f(com.testing.runner.WEBdataDriven2)  Time elapsed: 31.452 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven2.f(WEBdataDriven2.java:43)
+
+f(com.testing.runner.WEBdataDriven3)  Time elapsed: 31.451 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven3.f(WEBdataDriven3.java:43)
+
+f(com.testing.runner.WEBdataDriven3)  Time elapsed: 31.449 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven3.f(WEBdataDriven3.java:43)
+
+f(com.testing.runner.WEBdataDriven3)  Time elapsed: 31.411 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven3.f(WEBdataDriven3.java:43)
+
+f(com.testing.runner.WEBdataDriven3)  Time elapsed: 31.367 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven3.f(WEBdataDriven3.java:43)
+
+f(com.testing.runner.WEBdataDriven3)  Time elapsed: 31.438 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven3.f(WEBdataDriven3.java:43)
+
+f(com.testing.runner.WEBdataDriven3)  Time elapsed: 31.421 s  <<< FAILURE!
+java.lang.AssertionError: expected [pass] but found [fail]
+	at com.testing.runner.WEBdataDriven3.f(WEBdataDriven3.java:43)
+

@@ -1,0 +1,247 @@
+{
+  "uid" : "2b64833a009bf1da",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven.f",
+  "historyId" : "10197ab2b2291389695fda41c0290385",
+  "time" : {
+    "start" : 1586733968824,
+    "stop" : 1586733969992,
+    "duration" : 1168
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "3"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "输入用户名"
+  }, {
+    "name" : "arg3",
+    "value" : "input"
+  }, {
+    "name" : "arg4",
+    "value" : "//input[@id='username-input']"
+  }, {
+    "name" : "arg5",
+    "value" : "common-api@chint.com"
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 17,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 267,
+        "unknown" : 0,
+        "total" : 284
+      },
+      "items" : [ {
+        "uid" : "1f79861d538e480c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/1f79861d538e480c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586726769614,
+          "stop" : 1586726770805,
+          "duration" : 1191
+        }
+      }, {
+        "uid" : "af380961d23685d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/af380961d23685d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719568736,
+          "stop" : 1586719569913,
+          "duration" : 1177
+        }
+      }, {
+        "uid" : "6d18ba5b7852fa9a",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/6d18ba5b7852fa9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712370131,
+          "stop" : 1586712371301,
+          "duration" : 1170
+        }
+      }, {
+        "uid" : "121facbca697fdd2",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/121facbca697fdd2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532368400,
+          "stop" : 1586532369586,
+          "duration" : 1186
+        }
+      }, {
+        "uid" : "5bc72fe69fecd74d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/5bc72fe69fecd74d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525168349,
+          "stop" : 1586525169520,
+          "duration" : 1171
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "2b64833a009bf1da.json",
+  "parameterValues" : [ "3", "", "", "输入用户名", "input", "//input[@id='username-input']", "common-api@chint.com", "", "", "", "" ]
+}

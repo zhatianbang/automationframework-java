@@ -1,0 +1,247 @@
+{
+  "uid" : "7f2375410036ba07",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven3.f",
+  "historyId" : "dd85fddec3ba4e743ee588af53e3ce38",
+  "time" : {
+    "start" : 1586734069673,
+    "stop" : 1586734071557,
+    "duration" : 1884
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "11"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "输入产品"
+  }, {
+    "name" : "arg3",
+    "value" : "inputCyclic"
+  }, {
+    "name" : "arg4",
+    "value" : "//*[@aria-label='所属产品']"
+  }, {
+    "name" : "arg5",
+    "value" : "我_一型一密_直连非ss"
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 21,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 252,
+        "unknown" : 0,
+        "total" : 273
+      },
+      "items" : [ {
+        "uid" : "3a3bea0fd4f0c0fd",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/3a3bea0fd4f0c0fd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586726871062,
+          "stop" : 1586726872960,
+          "duration" : 1898
+        }
+      }, {
+        "uid" : "4015d56d7432622d",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/4015d56d7432622d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719669512,
+          "stop" : 1586719671401,
+          "duration" : 1889
+        }
+      }, {
+        "uid" : "16ae8270ddeab611",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/16ae8270ddeab611",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712470992,
+          "stop" : 1586712472897,
+          "duration" : 1905
+        }
+      }, {
+        "uid" : "248c8887039ab87e",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/248c8887039ab87e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532469438,
+          "stop" : 1586532471333,
+          "duration" : 1895
+        }
+      }, {
+        "uid" : "6a88cde77515a813",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/6a88cde77515a813",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525269226,
+          "stop" : 1586525271093,
+          "duration" : 1867
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "7f2375410036ba07.json",
+  "parameterValues" : [ "11", "", "", "输入产品", "inputCyclic", "//*[@aria-label='所属产品']", "我_一型一密_直连非ss", "", "", "", "" ]
+}

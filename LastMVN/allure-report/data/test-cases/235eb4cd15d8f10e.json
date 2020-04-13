@@ -1,0 +1,247 @@
+{
+  "uid" : "235eb4cd15d8f10e",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven.f",
+  "historyId" : "1bc6639a12117a588cb46f98d3c215d9",
+  "time" : {
+    "start" : 1586733992561,
+    "stop" : 1586733993670,
+    "duration" : 1109
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "24"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "测点"
+  }, {
+    "name" : "arg3",
+    "value" : "click"
+  }, {
+    "name" : "arg4",
+    "value" : "//span[contains(text(),'ronnie测点专用勿删')]"
+  }, {
+    "name" : "arg5",
+    "value" : ""
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 23,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 260,
+        "unknown" : 0,
+        "total" : 283
+      },
+      "items" : [ {
+        "uid" : "bc8d91d6e5911007",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/bc8d91d6e5911007",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586726793361,
+          "stop" : 1586726794468,
+          "duration" : 1107
+        }
+      }, {
+        "uid" : "eb02fdcb00a08d07",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/eb02fdcb00a08d07",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719592471,
+          "stop" : 1586719593578,
+          "duration" : 1107
+        }
+      }, {
+        "uid" : "3a308bbbb6663319",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/3a308bbbb6663319",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712393837,
+          "stop" : 1586712394945,
+          "duration" : 1108
+        }
+      }, {
+        "uid" : "534b0751b7ee7789",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/534b0751b7ee7789",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532392211,
+          "stop" : 1586532393338,
+          "duration" : 1127
+        }
+      }, {
+        "uid" : "393a7eb106147b04",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/393a7eb106147b04",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525192091,
+          "stop" : 1586525193199,
+          "duration" : 1108
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "235eb4cd15d8f10e.json",
+  "parameterValues" : [ "24", "", "", "测点", "click", "//span[contains(text(),'ronnie测点专用勿删')]", "", "", "", "", "" ]
+}

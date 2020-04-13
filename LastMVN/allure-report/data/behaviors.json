@@ -1,0 +1,915 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "f",
+    "uid" : "81764903c15ea295",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733960994,
+      "stop" : 1586733966021,
+      "duration" : 5027
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "", "", "打开浏览器", "openBrowser", "chrome", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "544d9221e861ab6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733966086,
+      "stop" : 1586733968819,
+      "duration" : 2733
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "", "", "访问basic", "visitWeb", "http://test-cc.chintcloud.net/", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "2b64833a009bf1da",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733968824,
+      "stop" : 1586733969992,
+      "duration" : 1168
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "", "", "输入用户名", "input", "//input[@id='username-input']", "common-api@chint.com", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "8b06ce05364051db",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733969994,
+      "stop" : 1586733971112,
+      "duration" : 1118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "", "", "输入密码", "input", "//input[@id='password-input']", "common-api", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "1dfb5bdf07d86033",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733971115,
+      "stop" : 1586733972204,
+      "duration" : 1089
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "", "", "登陆", "click", "//*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "89ee38dc8d106fb5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733972206,
+      "stop" : 1586733973761,
+      "duration" : 1555
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "6", "", "", "点击产品管理", "click", "//*[contains(text(),'产品管理')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "9edc307938dc37d3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733973763,
+      "stop" : 1586733974848,
+      "duration" : 1085
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "7", "", "", "点击新增产品", "click", "//*[@aria-haspopup='true']/button", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "c7b6bd9f2a0e3391",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733974849,
+      "stop" : 1586733975993,
+      "duration" : 1144
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "8", "", "", "创建新的产品", "runJsClick", "//ng-md-icon[@icon='insert_drive_file']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "7bd06212e07f69fd",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733975995,
+      "stop" : 1586733977155,
+      "duration" : 1160
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "9", "", "", "输入产品名字", "input", "//input[@name='title' and @ng-model='tenant.productName']", "新增产品名字useRandom", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "48ee430561dbf81a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733977157,
+      "stop" : 1586733978289,
+      "duration" : 1132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "10", "", "", "点击所属产品分类", "click", "//*[contains(text(),'所属产品分类')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "6acb18f24434ee54",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733978290,
+      "stop" : 1586733979384,
+      "duration" : 1094
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "11", "", "", "选择所属产品", "click", "//a[contains(text(),'ronnie专用误删')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "a61a008f236279ad",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733979386,
+      "stop" : 1586733980557,
+      "duration" : 1171
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "12", "", "", "输入产品型号", "input", "//*[contains(text(),'产品型号')]/../input", "SN2020useRandom", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "fb6aca120966c94e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733980558,
+      "stop" : 1586733981583,
+      "duration" : 1025
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "13", "", "", "点击网关", "runJsClick", "//span[contains(text(),'网关')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "fd50a1f269f538cb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733981585,
+      "stop" : 1586733982666,
+      "duration" : 1081
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "14", "", "", "点击编码格式下拉", "click", "//*[@aria-label='编码格式']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "67216dee3bdf8e14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733982669,
+      "stop" : 1586733983754,
+      "duration" : 1085
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "15", "", "", "选择编码格式", "click", "//*[@value='GB2312']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "85030feda67e0904",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733983755,
+      "stop" : 1586733984834,
+      "duration" : 1079
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "16", "", "", "点击接入协议下拉", "click", "//*[@aria-label='接入协议']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "53003c7102024a7e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733984838,
+      "stop" : 1586733985920,
+      "duration" : 1082
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "17", "", "", "选择接入协议", "click", "//*[@value='MQTT']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "add18aeb1e8b8f08",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733985922,
+      "stop" : 1586733987015,
+      "duration" : 1093
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "18", "", "", "点击密码类型", "click", "//*[@value='一机一密']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "97fc8fac2f984970",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733987016,
+      "stop" : 1586733988112,
+      "duration" : 1096
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "19", "", "", "点击添加", "click", "//*[@class='ng-binding ng-scope' and contains(text(),'添加')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "3a7b6158766e86dc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733988114,
+      "stop" : 1586733989206,
+      "duration" : 1092
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "20", "", "", "点击添加测点", "click", "//*[contains(text(),'{新增产品名字useRandom}')]/../descendant::md-icon[@aria-label='添加测点']/..", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "d0b009ab15a51900",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733989207,
+      "stop" : 1586733990207,
+      "duration" : 1000
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "21", "", "", "等待1秒", "halt", "1", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "5b939afc88a0fd81",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733990209,
+      "stop" : 1586733991305,
+      "duration" : 1096
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "22", "", "", "请选择类别标识", "pressEnter", "//*[@aria-label='请选择类别标识']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "e52af5c04475bb86",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733991308,
+      "stop" : 1586733992559,
+      "duration" : 1251
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "23", "", "", "输入测点名称", "input", "//*[@aria-label='请选择类别标识']", "ronnie测点专用勿删", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "235eb4cd15d8f10e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733992561,
+      "stop" : 1586733993670,
+      "duration" : 1109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "24", "", "", "测点", "click", "//span[contains(text(),'ronnie测点专用勿删')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "1f04e4b431fcf22b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733993672,
+      "stop" : 1586733994733,
+      "duration" : 1061
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "25", "", "", "功能标识", "pressEnter", "//*[@aria-label='请选择功能标识']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "3d0ef570cca9ca18",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733994735,
+      "stop" : 1586733995867,
+      "duration" : 1132
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "26", "", "", "智能电表", "click", "//*[contains(text(),'ronnie智能电表')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "b2dabb704917f7c7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733995869,
+      "stop" : 1586733996953,
+      "duration" : 1084
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "27", "", "", "选中", "click", "//md-checkbox[@aria-label='Select Row']/div[1]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "8ed5fef282bf1746",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733996955,
+      "stop" : 1586733998064,
+      "duration" : 1109
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "28", "", "", "提交", "click", "//*[@class='layout-row']/descendant::span[contains(text(),'添加')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "71701535a61a67c9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733998066,
+      "stop" : 1586733999098,
+      "duration" : 1032
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "29", "", "", "发布", "runJsClick", "//*[contains(text(),'{新增产品名字useRandom}')]/../descendant::md-icon[@aria-label='发布']/..", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "d17218c0cdd6e182",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586733999100,
+      "stop" : 1586734000121,
+      "duration" : 1021
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "30", "", "", "是", "runJsClick", "//*[contains(text(),'是')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "f3e0038e7744a80f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734000122,
+      "stop" : 1586734001123,
+      "duration" : 1001
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "31", "", "", "等待1秒", "halt", "1", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "14d1a3df5df96388",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734001124,
+      "stop" : 1586734002150,
+      "duration" : 1026
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "32", "", "", "取消发布", "runJsClick", "//*[contains(text(),'{新增产品名字useRandom}')]/../descendant::md-icon[@aria-label='发布']/..", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "733e2391f962b929",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734002151,
+      "stop" : 1586734003169,
+      "duration" : 1018
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "33", "", "", "是", "runJsClick", "//*[contains(text(),'是')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "c9bf1f6960748593",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734003170,
+      "stop" : 1586734004202,
+      "duration" : 1032
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "34", "", "", "删除", "runJsClick", "//*[contains(text(),'{新增产品名字useRandom}')]/../descendant::md-icon[@aria-label='删除']/..", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "ef7505144e601a9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734004204,
+      "stop" : 1586734005220,
+      "duration" : 1016
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "35", "", "", "是", "runJsClick", "//*[contains(text(),'是')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "ba227f8e3303bb75",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734005221,
+      "stop" : 1586734006222,
+      "duration" : 1001
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "36", "", "", "等待1秒", "halt", "1", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "58478c86170ced4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734006223,
+      "stop" : 1586734007295,
+      "duration" : 1072
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "37", "", "", "关闭浏览器", "closeBrowser", "", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "5755bb4cfb017b39",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734007299,
+      "stop" : 1586734011414,
+      "duration" : 4115
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "", "", "打开浏览器", "openBrowser", "chrome", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "1069cc7532b19455",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734011416,
+      "stop" : 1586734013899,
+      "duration" : 2483
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "", "", "访问basic", "visitWeb", "http://test-cc.chintcloud.net/", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "9b4a2ac79e759b0a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734013901,
+      "stop" : 1586734015049,
+      "duration" : 1148
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "", "", "输入用户名", "input", "//input[@id='username-input']", "sysadmin@chint.com", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "5217130ce9cdf3a5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734015051,
+      "stop" : 1586734016158,
+      "duration" : 1107
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "", "", "输入密码", "input", "//input[@id='password-input']", "sysadmin", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "9bdf016471faf488",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734016159,
+      "stop" : 1586734017236,
+      "duration" : 1077
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "", "", "管理员登陆", "click", "//*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "29eac9e462b3fe3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734017239,
+      "stop" : 1586734048690,
+      "duration" : 31451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "6", "", "", "租户菜单", "click", "//*[@ui-sref='home.tenants' and @ui-sref-active-eq='tb-active']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "1a66c41328111be1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734048692,
+      "stop" : 1586734051693,
+      "duration" : 3001
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "7", "", "", "等待3秒", "halt", "3", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "2536634758fbee5f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734051694,
+      "stop" : 1586734052764,
+      "duration" : 1070
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "8", "", "", "关闭浏览器", "closeBrowser", "", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "a863366bd397c974",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734052769,
+      "stop" : 1586734056750,
+      "duration" : 3981
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "1", "", "", "打开浏览器", "openBrowser", "chrome", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "305d5f5aa74818ae",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734056752,
+      "stop" : 1586734059251,
+      "duration" : 2499
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "2", "", "", "访问basic", "visitWeb", "http://test-cc.chintcloud.net/", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "6fa441dd50496065",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734059253,
+      "stop" : 1586734060404,
+      "duration" : 1151
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "3", "", "", "输入用户名", "input", "//input[@id='username-input']", "common-api@chint.com", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "6956a2410d526a19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734060406,
+      "stop" : 1586734061524,
+      "duration" : 1118
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "4", "", "", "输入密码", "input", "//input[@id='password-input']", "common-api", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "3f5057c5a2fda32a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734061525,
+      "stop" : 1586734062605,
+      "duration" : 1080
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "5", "", "", "登陆", "click", "//*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "4572eb4a2e2ebd5a",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734062607,
+      "stop" : 1586734064565,
+      "duration" : 1958
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "6", "", "", "点击设备", "click", "//*[@section='section']/descendant::span[contains(text(),'设备')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "daf1c64fee9fd69d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734064567,
+      "stop" : 1586734066084,
+      "duration" : 1517
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "7", "", "", "点击新增设备", "click", "//*[@aria-haspopup='true']/button", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "94e0860744b45cab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734066086,
+      "stop" : 1586734067228,
+      "duration" : 1142
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "8", "", "", "创建新的设备", "runJsClick", "//ng-md-icon[@icon='insert_drive_file']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "5fe62e85bddf11b9",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734067229,
+      "stop" : 1586734068441,
+      "duration" : 1212
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "9", "", "", "输入设备名称", "input", "//*[@name='name' and @style='']", "新增直连设备寂寞", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "664474d03b632a19",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734068443,
+      "stop" : 1586734069671,
+      "duration" : 1228
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "10", "", "", "点击", "click", "//*[@aria-label='所属产品']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "7f2375410036ba07",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734069673,
+      "stop" : 1586734071557,
+      "duration" : 1884
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "11", "", "", "输入产品", "inputCyclic", "//*[@aria-label='所属产品']", "我_一型一密_直连非ss", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "1a9dddde793cae90",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734071559,
+      "stop" : 1586734072610,
+      "duration" : 1051
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "12", "", "", "键盘DOWN", "pressDown", "//*[@aria-label='所属产品']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "68b3a02d8e346c8d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734072611,
+      "stop" : 1586734073710,
+      "duration" : 1099
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "13", "", "", "键盘ENTER", "pressEnter", "//*[@aria-label='所属产品']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "6a6411e477552f82",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734073712,
+      "stop" : 1586734075013,
+      "duration" : 1301
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "14", "", "", "输入设备sn", "input", "//*[@name='sn' and @ng-model='device.sn' and @style='']", "SN33665542121", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "8f3bf7c7a3de37a8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734075014,
+      "stop" : 1586734076350,
+      "duration" : 1336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "15", "", "", "输入描述", "input", "//*[@name='description' and @rows='2']", "测试描述字段#￥%……&*（）", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "b138d0d7c63235c4",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734076352,
+      "stop" : 1586734077553,
+      "duration" : 1201
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "16", "", "", "点击添加", "click", "//span[contains(text(),'添加')]/parent::button[@type='submit']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "e5c4ae309dbdcaf3",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734077554,
+      "stop" : 1586734109005,
+      "duration" : 31451
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "17", "", "", "点击分配", "click", "//*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "b6a7bfff4e525d36",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734109007,
+      "stop" : 1586734140455,
+      "duration" : 31448
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "18", "", "", "点击检索条件", "click", "//*[@placeholder='输入检索条件']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "e961f78416edcbd5",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734140456,
+      "stop" : 1586734171866,
+      "duration" : 31410
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "19", "", "", "输入检索内容", "input", "//*[@placeholder='输入检索条件']", "common-api", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "e0cd97f2c3c29cc8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734171868,
+      "stop" : 1586734203234,
+      "duration" : 31366
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "20", "", "", "点击检索结果", "click", "//*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "3f0532f32ead3d14",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734203235,
+      "stop" : 1586734204457,
+      "duration" : 1222
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "21", "", "", "点击提交", "click", "//*[@type='submit']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "d525b218d698a10e",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734204459,
+      "stop" : 1586734235896,
+      "duration" : 31437
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "22", "", "", "点击删除", "click", "//*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除']", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "547bdb1a0100235c",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1586734235898,
+      "stop" : 1586734267318,
+      "duration" : 31420
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "23", "", "", "点击是", "click", "//*[@type='button']/span[contains(text(),'是')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "15901f859de351d1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734267320,
+      "stop" : 1586734277347,
+      "duration" : 10027
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "24", "", "", "断言删除成功", "assertInvisibility", "//*[contains(text(),'新增直连设备寂寞')]", "", "", "", "", "" ]
+  }, {
+    "name" : "f",
+    "uid" : "b1c8dc2d4b88811b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1586734277349,
+      "stop" : 1586734278420,
+      "duration" : 1071
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "25", "", "", "关闭浏览器", "closeBrowser", "", "", "", "", "", "" ]
+  } ]
+}

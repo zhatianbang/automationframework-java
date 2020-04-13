@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="37984" started-at="2020-03-10T06:12:37Z" finished-at="2020-03-10T06:13:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="37984" started-at="2020-03-10T06:12:37Z" finished-at="2020-03-10T06:13:15Z">
+      <class name="com.testing.runner.WEBdataDriven4">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="beforeSuite" is-config="true" duration-ms="892" started-at="2020-03-10T06:12:37Z" finished-at="2020-03-10T06:12:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="3893" started-at="2020-03-10T06:12:37Z" data-provider="keywords" finished-at="2020-03-10T06:12:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[打开浏览器]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[openBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="2796" started-at="2020-03-10T06:12:41Z" data-provider="keywords" finished-at="2020-03-10T06:12:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[访问basic]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[visitWeb]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[http://test-cc.chintcloud.net/]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1207" started-at="2020-03-10T06:12:44Z" data-provider="keywords" finished-at="2020-03-10T06:12:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入用户名]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@id='username-input']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[common-api@chint.com]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1131" started-at="2020-03-10T06:12:45Z" data-provider="keywords" finished-at="2020-03-10T06:12:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入密码]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//input[@id='password-input']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[common-api]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1099" started-at="2020-03-10T06:12:47Z" data-provider="keywords" finished-at="2020-03-10T06:12:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[登陆]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@class='md-raised md-button md-tb-dark-theme md-ink-ripple']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1791" started-at="2020-03-10T06:12:48Z" data-provider="keywords" finished-at="2020-03-10T06:12:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击设备]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@section='section']/descendant::span[contains(text(),'设备')]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1388" started-at="2020-03-10T06:12:49Z" data-provider="keywords" finished-at="2020-03-10T06:12:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[7]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击新增设备]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@aria-haspopup='true']/button]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1216" started-at="2020-03-10T06:12:51Z" data-provider="keywords" finished-at="2020-03-10T06:12:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[创建新的设备]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[runJsClick]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//ng-md-icon[@icon='insert_drive_file']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1340" started-at="2020-03-10T06:12:52Z" data-provider="keywords" finished-at="2020-03-10T06:12:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[9]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入设备名称]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@name='name' and @style='']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[新增直连设备寂寞]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1258" started-at="2020-03-10T06:12:53Z" data-provider="keywords" finished-at="2020-03-10T06:12:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@aria-label='所属产品']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="2314" started-at="2020-03-10T06:12:55Z" data-provider="keywords" finished-at="2020-03-10T06:12:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入产品]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[inputCyclic]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@aria-label='所属产品']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[我_一型一密_直连非ss]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1073" started-at="2020-03-10T06:12:57Z" data-provider="keywords" finished-at="2020-03-10T06:12:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[键盘DOWN]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pressDown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@aria-label='所属产品']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1120" started-at="2020-03-10T06:12:58Z" data-provider="keywords" finished-at="2020-03-10T06:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[键盘ENTER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pressEnter]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@aria-label='所属产品']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1470" started-at="2020-03-10T06:12:59Z" data-provider="keywords" finished-at="2020-03-10T06:13:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[14]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入设备sn]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@name='sn' and @ng-model='device.sn' and @style='']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[SN33665542121]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1509" started-at="2020-03-10T06:13:01Z" data-provider="keywords" finished-at="2020-03-10T06:13:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入描述]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@name='description' and @rows='2']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[测试描述字段#￥%……&*（）]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1216" started-at="2020-03-10T06:13:02Z" data-provider="keywords" finished-at="2020-03-10T06:13:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[16]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击添加]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//span[contains(text(),'添加')]/parent::button[@type='submit']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1779" started-at="2020-03-10T06:13:03Z" data-provider="keywords" finished-at="2020-03-10T06:13:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[17]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击分配]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='分配']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1133" started-at="2020-03-10T06:13:05Z" data-provider="keywords" finished-at="2020-03-10T06:13:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击检索条件]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@placeholder='输入检索条件']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="2166" started-at="2020-03-10T06:13:06Z" data-provider="keywords" finished-at="2020-03-10T06:13:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[19]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[输入检索内容]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[input]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@placeholder='输入检索条件']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[common-api]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1161" started-at="2020-03-10T06:13:08Z" data-provider="keywords" finished-at="2020-03-10T06:13:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[20]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击检索结果]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@aria-label='选择']/following-sibling::span[contains(text(),' common-api(勿删) ')]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1226" started-at="2020-03-10T06:13:10Z" data-provider="keywords" finished-at="2020-03-10T06:13:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[21]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击提交]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@type='submit']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1792" started-at="2020-03-10T06:13:11Z" data-provider="keywords" finished-at="2020-03-10T06:13:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[22]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击删除]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[contains(text(),'新增直连设备寂寞')]/../../../../descendant::div[@aria-label='删除']]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1109" started-at="2020-03-10T06:13:13Z" data-provider="keywords" finished-at="2020-03-10T06:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[23]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[点击是]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[click]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[@type='button']/span[contains(text(),'是')]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="573" started-at="2020-03-10T06:13:14Z" data-provider="keywords" finished-at="2020-03-10T06:13:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[24]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[断言删除成功]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[assertInvisibility]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[//*[contains(text(),'新增直连设备寂寞')]]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="f(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="f" duration-ms="1068" started-at="2020-03-10T06:13:14Z" data-provider="keywords" finished-at="2020-03-10T06:13:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[25]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[关闭浏览器]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[closeBrowser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.testing.runner.WEBdataDriven4@4fdfa676]" name="afterSuite" is-config="true" duration-ms="20" started-at="2020-03-10T06:13:15Z" finished-at="2020-03-10T06:13:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testing.runner.WEBdataDriven4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

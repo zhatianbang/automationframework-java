@@ -1,0 +1,247 @@
+{
+  "uid" : "6a6411e477552f82",
+  "name" : "f",
+  "fullName" : "com.testing.runner.WEBdataDriven3.f",
+  "historyId" : "562070769a05076d324f1bfdf58a67a9",
+  "time" : {
+    "start" : 1586734073712,
+    "stop" : 1586734075013,
+    "duration" : 1301
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733959889,
+      "stop" : 1586733960719,
+      "duration" : 830
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960720,
+      "stop" : 1586733960811,
+      "duration" : 91
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "beforeSuite",
+    "time" : {
+      "start" : 1586733960811,
+      "stop" : 1586733960918,
+      "duration" : 107
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278445,
+      "stop" : 1586734278459,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278460,
+      "stop" : 1586734278474,
+      "duration" : 14
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "afterSuite",
+    "time" : {
+      "start" : 1586734278474,
+      "stop" : 1586734278490,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "testClass",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "testMethod",
+    "value" : "f"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.testing.runner.WEBdataDriven3"
+  }, {
+    "name" : "host",
+    "value" : "duankj-book"
+  }, {
+    "name" : "thread",
+    "value" : "26316@duankj-book.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "arg0",
+    "value" : "14"
+  }, {
+    "name" : "arg1",
+    "value" : ""
+  }, {
+    "name" : "arg10",
+    "value" : ""
+  }, {
+    "name" : "arg2",
+    "value" : "输入设备sn"
+  }, {
+    "name" : "arg3",
+    "value" : "input"
+  }, {
+    "name" : "arg4",
+    "value" : "//*[@name='sn' and @ng-model='device.sn' and @style='']"
+  }, {
+    "name" : "arg5",
+    "value" : "SN33665542121"
+  }, {
+    "name" : "arg6",
+    "value" : ""
+  }, {
+    "name" : "arg7",
+    "value" : ""
+  }, {
+    "name" : "arg8",
+    "value" : ""
+  }, {
+    "name" : "arg9",
+    "value" : ""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 19,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 254,
+        "unknown" : 0,
+        "total" : 273
+      },
+      "items" : [ {
+        "uid" : "bd4aea09c3b9f2ef",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/368/allure/#testresult/bd4aea09c3b9f2ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586726875160,
+          "stop" : 1586726876456,
+          "duration" : 1296
+        }
+      }, {
+        "uid" : "e228e8b306235da9",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/367/allure/#testresult/e228e8b306235da9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586719673602,
+          "stop" : 1586719674905,
+          "duration" : 1303
+        }
+      }, {
+        "uid" : "4180603876bc0012",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/366/allure/#testresult/4180603876bc0012",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586712475045,
+          "stop" : 1586712476345,
+          "duration" : 1300
+        }
+      }, {
+        "uid" : "8c9d110d94866409",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/365/allure/#testresult/8c9d110d94866409",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586532473539,
+          "stop" : 1586532474849,
+          "duration" : 1310
+        }
+      }, {
+        "uid" : "6dc1d1bf98d8e69c",
+        "reportUrl" : "http://localhost:8080/jenkins/job/web(Java%E9%A1%B9%E7%9B%AE)/364/allure/#testresult/6dc1d1bf98d8e69c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1586525273239,
+          "stop" : 1586525274552,
+          "duration" : 1313
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "6a6411e477552f82.json",
+  "parameterValues" : [ "14", "", "", "输入设备sn", "input", "//*[@name='sn' and @ng-model='device.sn' and @style='']", "SN33665542121", "", "", "", "" ]
+}
